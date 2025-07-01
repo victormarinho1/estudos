@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_container_estudos
+    restart: always
+    environment:
+      LANG: C.UTF-8
+      MYSQL_ROOT_PASSWORD: estudos
+      MYSQL_DATABASE: estudos
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: mypassword
+    ports:
+      - "3307:3306"
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+
