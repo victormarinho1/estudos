@@ -6,13 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <pre>        
-        <?php
-            require_once 'Caneta.php';
-            $c1 = new Caneta;
-            $c1->modelo = "Bic Cristal";
-            print_r($c1);
-        ?>
-        </pre>
+    <?php
+        require_once('ContaBanco.php');
+    ?>
 </body>
 </html>

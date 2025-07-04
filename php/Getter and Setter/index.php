@@ -9,10 +9,9 @@
     <pre>        
         <?php
             require_once 'Caneta.php';
-            $c1 = new Caneta;
-            $c1->modelo = "Bic Cristal";
+            $c1 = new Caneta("Bic", "Azul",0.5);
             print_r($c1);
-        ?>
+    ?>
         </pre>
 </body>
 </html>
