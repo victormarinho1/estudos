@@ -89,7 +89,7 @@ class ContaBanco{
                 echo "Saldo insuficiente";
             }
         }else{
-            echo "Impossivel sacar!"
+            echo "Impossivel sacar!";
         }
     }
 
@@ -111,6 +111,4 @@ class ContaBanco{
 
    
 }
-
-
 ?>
