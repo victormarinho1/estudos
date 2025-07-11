@@ -41,8 +41,7 @@
     $l[3]->perderLuta();
     $l[3]->perderLuta();
     $l[3]->apresentar();
-    
-    ?>
+?>
 
 </body>
 </html>
